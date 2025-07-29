@@ -5,7 +5,7 @@ import '../Style/style.css';
 const NavBar = () => {
     return (
         <div>
-            <div className="navbar bg-base-100 font_regular">
+            <div className="navbar lg:w-[1200px] bg-base-100 font_regular">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -24,7 +24,7 @@ const NavBar = () => {
       </div>
       <ul
         tabIndex={0}
-        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow cursor-pointer">
          <li>Home </li>
       <li>Shop </li>
       <li>Blogs </li>
@@ -35,7 +35,7 @@ const NavBar = () => {
     </div>
    
   <div className="navbar-start hidden lg:flex">
-    <ul className="menu menu-horizontal flex gap-7 px-1">
+    <ul className="menu menu-horizontal flex gap-7 px-1 cursor-pointer">
       <li>Home </li>
       <li>Shop </li>
       <li>Blogs </li>

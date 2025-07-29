@@ -29,6 +29,11 @@
   font-weight: 500;
   font-style: normal;
 }
+.DMSans {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
 
 .font_semibold {
   font-family: "Poppins", sans-serif;

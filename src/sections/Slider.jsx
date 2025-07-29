@@ -1,38 +1,72 @@
-<div className="carousel w-full">
-  <div id="slide1" className="carousel-item relative w-full">
-    <img
-      src="https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp"
-      className="w-full" />
-    <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-      <a href="#slide4" className="btn btn-circle">❮</a>
-      <a href="#slide2" className="btn btn-circle">❯</a>
-    </div>
-  </div>
-  <div id="slide2" className="carousel-item relative w-full">
-    <img
-      src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
-      className="w-full" />
-    <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-      <a href="#slide1" className="btn btn-circle">❮</a>
-      <a href="#slide3" className="btn btn-circle">❯</a>
-    </div>
-  </div>
-  <div id="slide3" className="carousel-item relative w-full">
-    <img
-      src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
-      className="w-full" />
-    <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-      <a href="#slide2" className="btn btn-circle">❮</a>
-      <a href="#slide4" className="btn btn-circle">❯</a>
-    </div>
-  </div>
-  <div id="slide4" className="carousel-item relative w-full">
-    <img
-      src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
-      className="w-full" />
-    <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-      <a href="#slide3" className="btn btn-circle">❮</a>
-      <a href="#slide1" className="btn btn-circle">❯</a>
-    </div>
-  </div>
+import './slider.css'
+
+const Slider = () => {
+  return (
+    <div>
+      <div>
+        <img width={'111px'} height={'127px'} className='absolute  top-3 left-1/2' src="/Imges/Website-Page/Group 395.png" alt="" />
+      </div>
+      <div className="carousel w-full bg-[#F2F4F6]">
+  <div id="slide1" className="carousel-item  relative   w-[1200px]">
+  <div className='flex gap- items-center text-center'>
+     
+     <div className='backroundImg'>
+       <img
+       width={'400px'}
+      
+      src="../../public/Imges/Website-Page/Group 507.png"
+      className=" rounded-2xl mx-auto pt-14 " />
+     </div>
+     
+    <div className="w-[500p] ">
+  <h1 className="text-[60px] font-medium leading-tight ml-8">
+    JF Privezy Grass
+  </h1>
+  <h1 className="text-[60px] font-medium w-3 ml-8">
+    Wall
+  </h1>
+  <p className="text-[24px] font_regular w-[22.75rem] ml-8 ">The perfact Blend of Greenery</p>
+  <button className='font_medium text-[18px] w-[150px] h-[50px] mt-14 -ml-52   btn rounded-full bg-[#B0DD1D]'>Shop Now</button>
 </div>
+     
+  </div>
+    <div className="absolute -left-1 -right-4 top-1/2 flex -translate-y-1/2 transform justify-between">
+      <a href="#slide2" className="btn btn-circle bg-[#B0DD1D]">❮</a>
+      <a href="#slide2" className="btn btn-circle mr-5 bg-[#B0DD1D]">❯</a>
+    </div>
+  </div>
+  <div id="slide2" className="carousel-item  relative   w-[1200px]">
+  <div className='flex gap- items-center text-center'>
+     
+     <div className='backroundImg'>
+       <img
+       width={'400px'}
+      
+      src="../../public/Imges/Website-Page/Group 507.png"
+      className=" rounded-2xl mx-auto pt-14 " />
+     </div>
+     
+    <div className="w-[500p] ">
+  <h1 className="text-[60px] font-medium leading-tight ml-8">
+    JF Privezy Grass
+  </h1>
+  <h1 className="text-[60px] font-medium w-3 ml-8">
+    Wall
+  </h1>
+  <p className="text-[24px] font_regular w-[22.75rem] ml-8 ">The perfact Blend of Greenery</p>
+  <button className='font_medium text-[18px] w-[150px] h-[50px] mt-14 -ml-52   btn rounded-full bg-[#B0DD1D]'>Shop Now</button>
+</div>
+     
+  </div>
+    <div className="absolute -left-1 -right-4 top-1/2 flex -translate-y-1/2 transform justify-between">
+      <a href="#slide1" className="btn btn-circle ml-[19px] bg-[#B0DD1D]">❮</a>
+      <a href="#slide1" className="btn btn-circle bg-[#B0DD1D]">❯</a>
+    </div>
+  </div>
+
+</div>
+    </div>
+  );
+};
+
+export default Slider;

@@ -1,0 +1,12 @@
+.backroundImg{
+
+    background-image: url('../../public/Imges/Website-Page/image.png');
+    width: 500px;
+   
+    margin-left: 36px;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
