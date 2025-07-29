@@ -1,38 +1,148 @@
+import React, {  useState } from 'react';
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
 
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 
+import './style.css';
+import '../../Style/style.css'
+import { Navigation, Pagination } from 'swiper/modules';
+// image impot 
+import imgges1 from '../../../public/Imges/Website-Page/image1.png'
+import imgges2 from '../../../public/Imges/Website-Page/image (1).png'
+import imgges3 from '../../../public/Imges/Website-Page/image (2).png'
+import imgges4 from '../../../public/Imges/Website-Page/image (5).png'
 const Products = () => {
-    return (
-        <div>
-              <div id="slide1" className="carousel-item  relative   w-[1200px]">
-  <div className='flex gap- items-center text-center'>
-     
-     <div className='backroundImg'>
-       <img
-       width={'400px'}
-      
-      src="../../public/Imges/Website-Page/Group 507.png"
-      className=" rounded-2xl mx-auto pt-14 " />
-     </div>
-     
-    <div className="w-[500p] ">
-  <h1 className="text-[60px] font-medium leading-tight ml-8">
-    JF Privezy Grass
-  </h1>
-  <h1 className="text-[60px] font-medium w-3 ml-8">
-    Wall
-  </h1>
-  <p className="text-[24px] font_regular w-[22.75rem] ml-8 ">The perfact Blend of Greenery</p>
-  <button className='font_medium text-[18px] w-[150px] h-[50px] mt-14 -ml-52   btn rounded-full bg-[#B0DD1D]'>Shop Now</button>
-</div>
-     
-  </div>
-    <div className="absolute -left-1 -right-4 top-1/2 flex -translate-y-1/2 transform justify-between">
-      <a href="#slide2" className="btn btn-circle bg-[#B0DD1D]">❮</a>
-      <a href="#slide2" className="btn btn-circle mr-5 bg-[#B0DD1D]">❯</a>
+  const [ setSwiperRef] = useState(null);
+
+ 
+    
+  return (
+   <div>
+      <div>
+        <h1 className='text-black font_medium text-[42px] text-start mt-8'>Agricultural Products</h1>
     </div>
+     <>
+  
+      <Swiper
+        onSwiper={setSwiperRef}
+        slidesPerView={4}
+        centeredSlides={true}
+        spaceBetween={30}
+        pagination={{
+          type: 'fraction',
+        }}
+        navigation={true}
+        modules={[Pagination, Navigation]}
+        className="mySwiper"
+      >
+        {/* 1 */}
+        <SwiperSlide className='!w-[305px] !pt-0 !bg-[#F2F4F6] !text-black !h-[383px] !rounded-2xl rounded-b-2xl'>
+
+<div className="card -mt-[3.5rem]  shadow-sm rounded-2xl">
+  <figure className='w-[255px] rounded-xl bg-white'>
+    <img
+    
+    className='bg-white rounded-2xl'
+      src={imgges1}
+      alt="Shoes" />
+  </figure>
+  <div className="card-body">
+    <h2 className="card-title -ml-[28px] font_medium ">
+   JF Barbed Wire- 270 GSM
+     
+    </h2>
+    <p className='-ml-48 font_medium text-[14px] text-[#1e1c1c7f]'>₹4,995.00</p>
+    <button className='btn bg-[#B0DD1D] rounded-full w-[128px] h-[38px] -ml-8 mb-7'>Shop Now</button>
+ 
   </div>
-        </div>
-    );
+</div>
+
+        </SwiperSlide>
+
+        {/* 2 */}
+        <SwiperSlide className='!w-[305px] !pt-0 !bg-[#F2F4F6] !text-black !h-[383px] !rounded-2xl rounded-b-2xl'>
+
+<div className="card -mt-[3.5rem]  shadow-sm rounded-2xl">
+  <figure className='w-[255px] mt-16 rounded-xl bg-white'>
+    <img
+    
+    className='bg-white rounded-2xl '
+      src={imgges2}
+      alt="Shoes" />
+  </figure>
+  <div className="card-body">
+    <h2 className="card-title -ml-[42px] font_medium ">
+  FGC RustFree Fencing Poles
+     
+    </h2>
+    <p className='-ml-40 font_medium text-[14px] text-[#1e1c1c7f]'>₹499.00 -₹1,589.00</p>
+    <button className='btn bg-[#B0DD1D] rounded-full w-[128px] h-[38px] -ml-8 mb-20'>Shop Now</button>
+ 
+  </div>
+</div>
+
+        </SwiperSlide>
+
+{/* 3 */}
+        <SwiperSlide className='!w-[305px] !pt-0 !bg-[#F2F4F6] !text-black !h-[383px] !rounded-2xl rounded-b-2xl'>
+
+<div className="card -mt-[3.5rem]  shadow-sm rounded-2xl">
+  <figure className='w-[255px] rounded-xl bg-white'>
+    <img
+    
+    className='bg-white rounded-2xl'
+      src={imgges3}
+      alt="Shoes" />
+  </figure>
+  <div className="card-body">
+    <h2 className="card-title -ml-[28px] font_medium ">
+  GI Poultry Mesh
+     
+    </h2>
+    <p className='-ml-28 font_medium text-[14px] text-[#1e1c1c7f]'>₹1,260.00 - ₹10,750.00</p>
+    <button className='btn bg-[#B0DD1D] rounded-full w-[128px] h-[38px] -ml-8 mb-7'>Shop Now</button>
+ 
+  </div>
+</div>
+
+        </SwiperSlide>
+
+{/* 4 */}
+        <SwiperSlide className='!w-[305px] !pt-0 !bg-[#F2F4F6] !text-black !h-[383px] !rounded-2xl rounded-b-2xl'>
+
+<div className="card -mt-[3.5rem]  shadow-sm rounded-2xl">
+  <figure className='w-[255px] rounded-xl bg-white'>
+    <img
+    
+    className='bg-white rounded-2xl'
+     src={imgges4}
+      alt="Shoes" />
+  </figure>
+  <div className="card-body">
+    <h2 className="card-title -ml-[28px] font_medium ">
+  JF Bluelink Mesh
+     
+    </h2>
+    <p className='-ml-28 font_medium text-[14px] text-[#1e1c1c7f]'>₹3,067.50 - ₹6,362.50</p>
+    <button className='btn bg-[#B0DD1D] rounded-full w-[128px] h-[38px] -ml-8 mb-7'>Shop Now</button>
+ 
+  </div>
+</div>
+
+        </SwiperSlide>
+
+
+      
+      </Swiper>
+
+     
+    </>
+   </div>
+  );
 };
 
 export default Products;
