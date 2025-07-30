@@ -19,13 +19,13 @@ const Slider = () => {
      </div>
      
     <div className="w-[500p] ">
-  <h1 className="text-[60px] font-medium leading-tight ml-8">
+  <h1 className="text-[60px] text-black font-medium leading-tight ml-8">
     JF Privezy Grass
   </h1>
-  <h1 className="text-[60px] font-medium w-3 ml-8">
+  <h1 className="text-[60px] font-medium w-3 ml-8 text-black">
     Wall
   </h1>
-  <p className="text-[24px] font_regular w-[22.75rem] ml-8 ">The perfact Blend of Greenery</p>
+  <p className="text-[24px] font_regular w-[22.75rem] ml-8 text-black ">The perfact Blend of Greenery</p>
   <button className='font_medium text-[18px] w-[150px] h-[50px] mt-14 -ml-52   btn rounded-full bg-[#B0DD1D]'>Shop Now</button>
 </div>
      
@@ -47,13 +47,13 @@ const Slider = () => {
      </div>
      
     <div className="w-[500p] ">
-  <h1 className="text-[60px] font-medium leading-tight ml-8">
+  <h1 className="text-[60px] font-medium leading-tight ml-8 text-black">
     JF Privezy Grass
   </h1>
-  <h1 className="text-[60px] font-medium w-3 ml-8">
+  <h1 className="text-[60px] font-medium w-3 ml-8 text-black">
     Wall
   </h1>
-  <p className="text-[24px] font_regular w-[22.75rem] ml-8 ">The perfact Blend of Greenery</p>
+  <p className="text-[24px] font_regular w-[22.75rem] ml-8 text-black">The perfact Blend of Greenery</p>
   <button className='font_medium text-[18px] w-[150px] h-[50px] mt-14 -ml-52   btn rounded-full bg-[#B0DD1D]'>Shop Now</button>
 </div>
      
