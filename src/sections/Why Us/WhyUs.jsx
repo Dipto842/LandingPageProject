@@ -2,6 +2,7 @@ import imges1 from "../../../public/Imges/Website-Page/Group 480.png";
 import imges2 from "../../../public/Imges/Website-Page/Frame-8.png";
 import imges3 from "../../../public/Imges/Website-Page/Frame-7.png";
 
+
 const WhyUs = () => {
   return (
     <div className="w-[1200px] mx-auto mt-32">
@@ -63,7 +64,7 @@ const WhyUs = () => {
 
 
 
-    
+   
     </div>
   );
 };
