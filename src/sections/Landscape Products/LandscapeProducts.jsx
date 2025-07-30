@@ -130,6 +130,28 @@ const LandscapeProducts = () => {
 </div>
 
         </SwiperSlide>
+        <SwiperSlide className='!w-[305px] !pt-0 !bg-[#F2F4F6] !text-black !h-[383px] !rounded-2xl rounded-b-2xl'>
+
+<div className="card -mt-[3.5rem]  shadow-sm rounded-2xl">
+  <figure className='w-[255px] rounded-xl bg-white'>
+    <img
+    
+    className='bg-white rounded-2xl'
+     src={imges4}
+      alt="Shoes" />
+  </figure>
+  <div className="card-body">
+    <h2 className="card-title -ml-[28px] font_medium ">
+ JF Privezy Grass Wall
+     
+    </h2>
+    <p className='-ml-28 font_medium text-[14px] text-[#1e1c1c7f]'>₹3,067.50 - ₹6,362.50</p>
+    <button className='btn bg-[#B0DD1D] rounded-full w-[128px] h-[38px] -ml-8 mb-7'>Shop Now</button>
+ 
+  </div>
+</div>
+
+        </SwiperSlide>
 
 
       
