@@ -14,7 +14,7 @@ const Slider = () => {
        <img
        width={'400px'}
       
-      src="../../public/Imges/Website-Page/Group 507.png"
+      src="Imges/Website-Page/Group 507.png"
       className=" rounded-2xl mx-auto pt-14 " />
      </div>
      
@@ -42,7 +42,7 @@ const Slider = () => {
        <img
        width={'400px'}
       
-      src="../../public/Imges/Website-Page/Group 507.png"
+      src="Imges/Website-Page/Group 507.png"
       className=" rounded-2xl mx-auto pt-14 " />
      </div>
      

@@ -24,7 +24,7 @@ const NavBar = () => {
       </div>
       <ul
         tabIndex={0}
-        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow cursor-pointer">
+        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow cursor-pointer text-black">
          <li>Home </li>
       <li>Shop </li>
       <li>Blogs </li>
@@ -35,7 +35,7 @@ const NavBar = () => {
     </div>
    
   <div className="navbar-start hidden lg:flex">
-    <ul className="menu menu-horizontal flex gap-7 px-1 cursor-pointer">
+    <ul className="menu menu-horizontal flex gap-7 px-1 cursor-pointer text-black">
       <li>Home </li>
       <li>Shop </li>
       <li>Blogs </li>
@@ -46,13 +46,13 @@ const NavBar = () => {
   </div>
   </div>
   <div className="navbar-end ">
-   <div className="flex items-center gap-5">
+   <div className="flex items-center gap-5 text-black">
     {/* Login */}
-    <button className="flex  items-center gap-1">Login <span className="text-2xl"><BsPerson /></span></button>
+    <button className="flex text-black  items-center gap-1">Login <span className="text-2xl"><BsPerson /></span></button>
 {/* search */}
-    <button className="text-2xl"><CiSearch /></button>
+    <button className="text-2xl text-black"><CiSearch /></button>
     {/* Shopping card */}
-    <button className="text-2xl"><CiShoppingCart /></button>
+    <button className="text-2xl text-black"><CiShoppingCart /></button>
    </div>
   </div>
 </div>
